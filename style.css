@@ -1,0 +1,85 @@
+body{
+    border: 3px solid black;
+}
+header{
+ border: 2px solid black;
+ background-image: -moz-linear-gradient(40deg,rgb(110, 204, 56),rgb(206, 17, 17),rgb(38, 238, 11));
+ background-image: -o-linear-gradient(40deg,rgb(122, 178, 32),rgb(255, 255, 255),rgb(226, 241, 15));
+ background-image: -webkit-linear-gradient(40deg,rgb(66, 224, 216),rgb(202, 20, 20),rgb(187, 231, 28));
+}
+h1{
+    font-family:'Gill Sans';
+    margin-left: 1em;
+    color:palevioletred;
+    font-size: 55px;
+    animation-duration:45s;
+}
+nav{
+    display:flex;
+    list-style: none;
+   
+}
+nav a{
+    padding: 10px;
+    font-family: Arial;
+    border: 4px solid rgb(153, 46, 27);
+    margin-left: 30px;
+    font-size: 25px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color:rgb(172, 71, 255);
+}
+marquee{
+    text-shadow: 2.5px 2.5px rgb(245, 10, 155);
+}
+h2{
+    font-family:Georgia;
+    margin-left:5em;
+    font-size: 30px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow{
+    from {
+        text-shadow: 0 0 20px rgb(43, 226, 43), 0 0 20px crimson,0 0 20px rgb(243, 200, 10)
+      }
+      to {
+        text-shadow: 0 0 20px rgb(203, 218, 3), 0 0 20px  rgb(220, 200, 20) ,0 0 20px rgb(9, 223, 37)
+    }
+}
+img{
+width: 250px;
+height:390px;
+float: left;
+margin-left:0.5em;
+padding-right:15px;
+}
+#p1{
+    padding-left:8px;
+    font-family: Cambria;
+    margin-left: 2em;
+    margin-top:0.1em;
+}
+article{
+    column-count:2;
+    column-width:200px;
+}
+h3{
+    color:rgb(243, 68, 14);
+    font-size:55px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(148, 214, 24);
+    font-family: Cambria;
+}
+footer{
+border: 6px solid black;
+padding-left: 3em;
+background-image: -moz-linear-gradient(40deg,rgb(31, 162, 206),white,rgb(31, 162, 206));
+background-image: -o-linear-gradient(40deg,rgb(31, 162, 206),white,rgb(31, 162, 206));
+background-image: -webkit-linear-gradient(40deg,rgb(31, 162, 206),white,rgb(31, 162, 206));
+font-family: Georgia;
+color:rgb(192, 34, 126);
+text-align: center;
+}

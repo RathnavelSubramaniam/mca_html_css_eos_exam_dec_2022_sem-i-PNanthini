@@ -1,0 +1,41 @@
+body{
+    border: 3px solid black;
+}
+header{
+    border: 2px solid black;
+    background-image: -moz-linear-gradient(40deg,lightseagreen,white,lightseagreen);
+    background-image: -o-linear-gradient(40deg,lightseagreen,white,lightseagreen);
+    background-image: -webkit-linear-gradient(40deg,lightseagreen,white,lightseagreen);
+   }
+  #Images{
+    margin-top: 4em;
+    margin-left:0.5em;
+  }
+  h1{
+    color:chartreuse;
+    text-align: center;
+    font-size:30px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+   }
+   @keyframes glow{
+    from {
+        text-shadow: 0 0 20px blueviolet, 0 0 20px crimson,0 0 20px rgb(60, 255, 0)
+      }
+      to {
+        text-shadow: 0 0 20px rgb(226, 86, 43), 0 0 20px  rgb(182, 179, 16) ,0 0 20px rgb(217, 255, 0)
+    }
+}
+article{
+    float: right;
+    margin-right:19em;
+
+}
+P{
+    margin-left: 17em;
+    font-weight: 200;
+}
+.main{
+    float:center;
+}
